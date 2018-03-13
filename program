@@ -1,0 +1,19 @@
+public class Program {
+
+	public static void main(String[] args) {
+		double[]  scores = {4.7, 4.6, 4.7, 5.0, 4.3, 5.0, 4.9};
+		
+		//first we had an error with the above array
+		int i = 0;
+		double sum = 0;
+		while(i < scores.length) {
+			//then an error with the counter
+			sum = sum + scores[i];
+			//then with the function
+			i = i + 1;
+		}
+		System.out.println("The average score for this skater is " + sum / scores.length);
+		
+	}
+
+}
